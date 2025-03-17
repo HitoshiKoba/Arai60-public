@@ -7,6 +7,8 @@
 //            System.out.println(c);
 //        }
 //再帰呼び出し？
+//lambda文でも書けるようだ（s.chars().forEach(c -> System.out.println((char) c));）。が、短くするよりもfor文の書き方がわかりやすく感じる。慣れの問題だろうか。
+
 
 class Solution {
     public boolean isValid(String s) {
