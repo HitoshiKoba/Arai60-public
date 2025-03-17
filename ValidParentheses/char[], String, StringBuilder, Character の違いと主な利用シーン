@@ -6,11 +6,14 @@ char[], String, StringBuilder, Character の違いと主な利用シーン
 char[]	変更可能な文字配列	- パスワード処理（セキュリティ上の理由）
 - 文字の一部を変更する必要がある場合	- String は不変なので、パスワード処理でメモリ上に残らないようにする
 - 配列操作が可能でメモリ効率が良い
+
 String	不変（Immutable）	- 一般的な文字列操作
 - 文字列の比較・検索	- 不変性によりスレッドセーフで安全
 - equals(), hashCode() が適切に動作し、Map のキーなどに適している
+
 StringBuilder	可変（Mutable）で高速	- 繰り返し文字列を操作する（連結、置換など）
 - 文字列を頻繁に変更する処理	- String は 不変 なので、連結操作が多い場合は StringBuilder の方が パフォーマンスが良い
+
 Character	char のラッパークラス	- null を扱いたい場合
 - isDigit(), toUpperCase() などのユーティリティメソッドを使う場合	- char は プリミティブ型 なので、null を扱えない
 - 便利なメソッド (Character.isLetter() など) が提供されている
