@@ -1,3 +1,4 @@
+//よくわかっていない落書き。無視してください。
 /**
  * Definition for singly-linked list.
  * public class ListNode {
