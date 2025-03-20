@@ -15,7 +15,7 @@ class KthLargest {
         //int[] sortedNums = Arrays.sort(nums);
         ArrayList arrayList = new ArrayList<>(Arrays.asList(nums));
         arrayList.add(val);
-        ArrayList sortedNums = arrayList.sort();
+        ArrayList sortedNums = arrayList.sort();//sort()はインプレース変換なので、別の変数に記録する意味がないようだ。
         return sortedNums.get(2);
     }
 }
