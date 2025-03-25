@@ -5,3 +5,7 @@
 しかし、次のペアを計算するときには「現在どのインデックスを使っているか」が必要となるため、このインデックスを保持することは後の処理で必須です。
 
 そのため、コード全体のアルゴリズムとしては、「nums2のインデックス」を用意する意味はとても大きいです。
+
+インタフェース java.util.Collectionから継承されたメソッド
+containsAll, equals, hashCode, isEmpty, parallelStream, removeAll, 
+
