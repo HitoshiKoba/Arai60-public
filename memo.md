@@ -9,3 +9,6 @@
 インタフェース java.util.Collectionから継承されたメソッド
 containsAll, equals, hashCode, isEmpty, parallelStream, removeAll, 
 
+#### この復元処理を毎回行う意味は、以下の通りです：
+
+#### PQに格納するデータをシンプルに（合計値とnums2の位置だけ）することで、優先度キューの処理（ソート・挿入）が高速化されます。
