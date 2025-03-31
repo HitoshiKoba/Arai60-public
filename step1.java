@@ -4,7 +4,7 @@ class Solution {
         boolean found = false;
         outerloop:
         for (int i= 0; i < nums.length; i++) {
-            Integer theOther = target - nums[i];
+            int theOther = target - nums[i];
             for (int j = i + 1 ; j < nums.length ; j++) {
                 if (theOther == nums[j]) {
                     result[0] = i;
