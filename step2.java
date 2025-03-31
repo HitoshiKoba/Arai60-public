@@ -27,7 +27,7 @@ class Solution {
 
     }
 }
-//Mapのネーミング：”キーTo値”にしてみた。signature(署名)To Strings(文字列のリスト)StringListなどの方が良いか...?
+//Mapのネーミング：”キーTo値”にしてみた。signature(署名)To Strings、縮めてsignToStringsと書いたが、マップの値は文字列のリストなのでStringListなどの方が良いか...?
 //forループで回すものは、"s"でなくて"str"のような命名の方が良いか？
 
 
