@@ -12,3 +12,6 @@ Javaのインクリメント演算子（++）は、基本的には**数値型（
 
 **・プリミティブ数値型: byte, short, int, long, float, double, char（charも内部的には数値として扱われるため）
 ・ラッパークラス: Byte, Short, Integer, Long, Float, Double, Character（Java 5以降の自動ボクシング/アンボクシングにより）**
+
+
+//s.charAt(i);で、インデックスiの位置の文字char''を返す
